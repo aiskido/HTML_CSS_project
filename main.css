@@ -1,0 +1,401 @@
+/*Header part*/
+header{
+	background-image: url(files/adv.jpg);
+	border-radius: 10px 10px 0 0;
+	background-color: royalblue;
+}
+.nav{
+	color: mintcream;
+	text-shadow: 0 0 2px black;
+	margin-left: 3%;
+	font-size: 150%;
+	margin-right: 2%;
+	text-decoration: none;
+}
+.nav:hover{
+	transition-duration: 0.3s;
+	color: red;
+}
+header span{
+	color: mintcream;
+	text-shadow: 0 0 2px black;
+	margin-left: 8%;
+	font-size: 100%;
+}
+header span a{
+	text-align: right;
+	font-size: 120%;
+	text-decoration: none;
+	color: mintcream;
+	text-shadow: 0 0 2px black;
+}
+header span a:hover{
+	transition-duration: 0.2s;
+	color: red;
+}
+.active{
+	border: 2px solid mintcream;
+	padding: 2px;
+}
+#top{
+	
+	background-repeat: no-repeat;
+	text-align: center;
+}
+#top h1{
+	text-shadow: 0 0 5px black;
+	font-size: 50px;
+	padding-top: 10%;
+	color: snow;
+}
+#top p{
+	padding-bottom: 20%;
+}
+#top a{
+	font-size: 20px;
+	text-decoration: none;
+	text-shadow: 1px 0 0 black;
+	color: floralwhite;
+	padding-left: 60px;
+	padding-right: 60px;
+	border: 1px solid orange;
+	border-radius: 10px 10px 10px 10px;
+	background-color: navajowhite;
+}
+#top a:hover{
+	background-color: chocolate;
+}
+
+/*Main body part*/
+main{
+	margin-top: 70px;
+	margin-bottom: 20px;
+}
+/*Popular tours*/
+#potour h2{
+	font-family: monospace;
+	font-size: 50px;
+}
+.thrtour{
+	padding-bottom: 20px;
+}
+.row{
+	display: inline-block;
+	width: 400px;
+	height: 300px;
+	padding-top: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.tourimgs img{
+	border-radius: 15px;
+	width: 400px;
+	height: 300px;
+}
+.tourinfo h3{
+	font-family: serif;
+	font-size: 30px;
+	color: darkslategray;
+	text-shadow: 0 0 1px teal;
+}
+.tourinfo p{
+	font-size: 20px;
+	color: dimgrey;
+}
+.tourmore a{
+	font-family: fantasy;
+	font-size: 17px;
+	color: cadetblue;
+}
+.tourmore a:hover{
+	color: aqua;
+}
+#moretour a{
+	font-family: fantasy;
+	text-decoration: none;
+	color: cadetblue;
+	font-size: 20px;
+	padding-left: 100px;
+	padding-right: 100px;
+	border: 2px solid silver;
+	border-radius: 10px 10px 10px 10px;
+}
+/*About us*/
+#aboutus{
+	padding-top: 60px;
+	padding-bottom: 50px;
+}
+#aboutus h2{
+	font-family: monospace;
+	font-size: 35px;
+}
+.vid_text{
+	padding-top: 20px;
+	margin-left: 150px;
+	margin-right: 150px;
+	display: inline-flex;
+}
+.vid_text p{
+	text-align: left;
+	padding-left: 30px;
+	font-size: 20px;
+	color: dimgrey;
+}
+/*Making appoinment*/
+#makeappo{
+	background: radial-gradient(circle, 
+		rgba(180,226,243,1) 40%, 
+		rgba(234,234,234,1) 68%, 
+		rgba(107,215,255,1) 95%, 
+		rgba(233,233,233,1) 98%);	
+}
+#makeappo h2{
+	padding-top: 50px;
+	color: slategray;
+	font-family: monospace;
+	font-size: 25px;
+}
+.appo{
+	padding-bottom: 50px;
+}
+.inp{
+	border: 2px solid ghostwhite;
+	border-radius: 10px;
+	font-family: sans-serif;
+	font-size: 15px;
+	margin-top: 15px;
+	width: 500px;
+	height: 40px;
+}
+.inp:focus{
+	background-color: lightcyan;
+}
+.appo button{
+	color: mintcream;
+	background-color: royalblue;
+	border: none;
+	border-radius: 15px;
+}
+.appo button:hover{
+	border-color: black;
+	background-color: blue;
+}
+
+/*Footer part*/
+footer{
+	background-color: royalblue;
+	border-radius: 0 0 10px 10px;
+}
+.footlinks{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+#footimg{
+	width: 140px;
+}
+.footlink{
+	padding-left: 4%;
+	padding-right: 8%;
+	display: inline-block;
+}
+.footlink li{
+	list-style-type: none;
+	padding-top: 5px;
+	text-align: left;
+	color: mintcream;
+}
+.footlink a{
+	text-decoration: none;
+	color: mintcream;
+}
+
+/*The copyright part*/
+#foot{
+	background-color: midnightblue;
+	color: whitesmoke;
+	text-align: center;
+	border-radius: 0 0 10px 10px;
+}
+
+
+@media (max-width: 1350px) and (min-width: 1096px){
+	.nav{
+		font-size: 120%;
+	}
+	header span{
+		font-size: 80%;
+	}
+	header span a{
+		font-size: 100%;
+	}
+	#top h1{
+		font-size: 40px;
+	}
+	main{
+		margin-top: 50px;
+	}
+	#potour h2{
+		font-size: 30px;
+	}
+	.row{
+		width: 300px;
+		height: 250px;
+		padding-top: 10px;
+	}
+	.tourimgs img{
+		width: 300px;
+		height: 250px;
+	}
+	.tourinfo h3{
+		font-size: 22px;
+	}
+	.tourinfo p{
+		font-size: 18px;
+	}
+	.tourmore a{
+		font-size: 15px;
+	}
+	#moretour a{
+		font-size: 18px;
+	}
+	#aboutus h2{
+		font-size: 30px;
+	}
+	.vid_text{
+		padding-top: 20px;
+		margin-left: 50px;
+		margin-right: 50px;
+		display: inline-flex;
+	}
+	.vid_text iframe{
+		width: 460px;
+		height: 315px;
+	}
+	.vid_text p{
+		text-align: left;
+		padding-left: 10px;
+		font-size: 20px;
+		color: dimgrey;
+	}
+	#makeappo h2{
+		padding-top: 50px;
+		font-size: 25px;
+	}
+	.appo{
+		padding-bottom: 50px;
+	}
+	.inp{
+		font-size: 15px;
+		width: 400px;
+		height: 40px;
+	}
+	.footlinks{
+		margin-top: 40px;
+		margin-bottom: 40px;
+	}
+	#footimg{
+		width: 120px;
+	}
+	.footlink{
+		padding-left: 1%;
+		padding-right: 5%;
+	}
+	#foot{
+		font-size: 80%;
+	}
+}
+
+
+@media (max-width: 1096px) and (min-width: 320px){
+	header{
+		background-image: url(files/adv2.jpg);
+	}
+	.nav{
+		font-size: 85%;
+	}
+	header span{
+		margin-left: 3%;
+		font-size: 70%;
+	}
+	header span a{
+		font-size: 70%;
+	}
+	#top h1{
+		font-size: 25px;
+	}
+	#top a{
+		font-size: 15px;
+	}
+	main{
+		margin-top: 40px;
+	}
+	#potour h2{
+		font-size: 25px;
+	}
+	.row{
+		width: 400px;
+		height: 300px;
+		padding-top: 10px;
+	}
+	.tourimgs img{
+		width: 300px;
+		height: 200px;
+	}
+	.tourinfo h3{
+		font-size: 20px;
+	}
+	.tourinfo p{
+		font-size: 15px;
+	}
+	.tourmore a{
+		font-size: 12px;
+	}
+	#moretour a{
+		font-size: 15px;
+	}
+	#aboutus h2{
+		font-size: 25px;
+	}
+	.vid_text{
+		padding-top: 20px;
+		margin-left: 0px;
+		margin-right: 0px;
+		display: inline-block;
+	}
+	.vid_text iframe{
+		width: 360px;
+		height: 215px;
+	}
+	.vid_text p{
+		text-align: center;
+		padding-left: 0px;
+		font-size: 15px;
+		color: dimgrey;
+	}
+	#makeappo h2{
+		padding-top: 40px;
+		font-size: 20px;
+	}
+	.appo{
+		padding-bottom: 40px;
+	}
+	.inp{
+		font-size: 12px;
+		width: 400px;
+		height: 40px;
+	}
+	.footlinks{
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+	#footimg{
+		width: 100px;
+	}
+	.footlink{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	#foot{
+		font-size: 70%;
+	}
+}
